@@ -2,7 +2,7 @@ public class Candidato {
     private String nome_completo, data_de_Nascimento, genero, cargo_pretendido;
     private float total_de_bens;
     private boolean reeleicao;
-    private int número_do_partido;
+    private int numero_do_partido;
 
     public void setNome_completo(String nome_completo){
         this.nome_completo = nome_completo;
@@ -28,8 +28,8 @@ public class Candidato {
         this.reeleicao = reeleicao;
     }
 
-    public void setNúmero_do_partido(int número_do_partido) {
-        this.número_do_partido = número_do_partido;
+    public void setNumero_do_partido(int numero_do_partido) {
+        this.numero_do_partido = numero_do_partido;
     }
 
     public void mostrarInformacoes() {
@@ -39,7 +39,7 @@ public class Candidato {
         System.out.println("Cargo Pretendido: " + cargo_pretendido);
         System.out.println("Total de Bens: R$ " + total_de_bens);
         System.out.println("Reeleição: " + reeleicao);
-        System.out.println("Número do Partido: " + número_do_partido);
+        System.out.println("Número do Partido: " + numero_do_partido);
     }
 
 }
