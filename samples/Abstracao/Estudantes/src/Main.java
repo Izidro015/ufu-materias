@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
- //Estudante e = new Estudante("Carlos","Rua 1o de Abril");
+ Estudante e = new Estudante("Carlos","Rua 1o de Abril");
    //     EstudantePosGrad ep = new EstudantePosGrad("Ailton","Rua 31 de fevereiro","Engenharia", "Banco de Dados");
 /*        EstudanteGraduacao eg = new EstudanteGraduacao("Maria", "Rua Maio", "Java is funny");
       //  EstudantePosGrad ep = new EstudantePosGrad("Ailton","Rua 31 de fevereiro","Engenharia", "Banco de Dados");
@@ -32,7 +32,7 @@ public class Main {
         Estudante epd2 = new EstudanteDoutorado("Bruno","Rua Inverno",
                 "Tecnologia","Processamento de Imagens","Carros Inteligentes");
 
-
+/*
         try {
 
     epm2.calc_cr(false);
@@ -59,6 +59,8 @@ try{
     } catch (Exception ee){
         System.out.println(ee.getMessage());
     }
+
+*/
    /*
         e2.print();
         epd2.print();

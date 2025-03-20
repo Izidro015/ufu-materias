@@ -27,8 +27,8 @@ public class Main {
         epd.print();
         System.out.println("Título Tese: " + epd.getTituloTese());
 
-
 */
+
         // casos com polimorfismo
 
         Estudante e2 = new Estudante("Carlos","Rua 1o de Abril");
@@ -43,12 +43,13 @@ public class Main {
         // exemplo de uso com vetor e com CAST
 
 //        EstudanteGraduacao eg = new EstudanteGraduacao("Maria", "Rua Maio", "Java is funny");
+
 /*
+ */
 
 
-
+/*
         e2.print();
-
         eg2.print();
         epm2.print();
         ep2.print();
@@ -62,9 +63,10 @@ public class Main {
       //  Estudante eg2 = new EstudanteGraduacao("Maria", "Rua Maio", "Java is funny");
 
 
-        eg.getTituloTCC();
-     /* //  esses casos temos erro pois as variáveis terminando em 2
+  //      eg.getTituloTCC();
+      //  esses casos temos erro pois as variáveis terminando em 2
          //são do tipo Estudante
+   /*
         eg2.print();
         System.out.println(eg2.getTituloTCC());
 
@@ -73,12 +75,14 @@ public class Main {
 
         epm2.print();
         System.out.println(epm2.getTituloDissertacao());
+*/
 
-   */
+
        //resolvendo com CAST
         eg2.print();
         System.out.println( ((EstudanteGraduacao) eg2).getTituloTCC());
-       System.out.println( ((EstudanteGraduacao) e2).getTituloTCC());
+       // System.out.println( ((EstudanteGraduacao) e2).getTituloTCC());
+
         Estudante[] ev = new Estudante[4];
         ev[0] = eg;
         ev[1] = epd2;
