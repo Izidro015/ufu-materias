@@ -22,9 +22,9 @@ public class Main {
 
         System.out.print("Digite o número de duetos: ");
         int n = scanner.nextInt();
-        scanner.nextLine(); // Consumindo a linha em branco
+        scanner.nextLine();
 
-        Dueto[] duetos = new Dueto[n]; // Array para armazenar os duetos
+        Dueto[] duetos = new Dueto[n];
 
         for (int i = 0; i < n; i++) {
             System.out.println("\nDigite as informações do " + (i + 1) + "º dueto:");
@@ -42,7 +42,7 @@ public class Main {
             int experienciaMusico1 = scanner.nextInt();
             System.out.print("Remuneração por hora do Músico 1: ");
             float remuneracaoMusico1 = scanner.nextFloat();
-            scanner.nextLine(); // Consumindo a linha em branco
+            scanner.nextLine();
 
             System.out.print("Nome do Músico 2: ");
             String nomeMusico2 = scanner.nextLine();
@@ -52,7 +52,7 @@ public class Main {
             int experienciaMusico2 = scanner.nextInt();
             System.out.print("Remuneração por hora do Músico 2: ");
             float remuneracaoMusico2 = scanner.nextFloat();
-            scanner.nextLine(); // Consumindo a linha em branco
+            scanner.nextLine();
 
             Musico musico1 = new Musico(nomeMusico1, papelMusico1, experienciaMusico1, remuneracaoMusico1);
             Musico musico2 = new Musico(nomeMusico2, papelMusico2, experienciaMusico2, remuneracaoMusico2);
@@ -70,7 +70,7 @@ public class Main {
                 int experienciaSubstituto = scanner.nextInt();
                 System.out.print("Remuneração por hora do substituto: ");
                 float remuneracaoSubstituto = scanner.nextFloat();
-                scanner.nextLine(); // Consumindo a linha em branco
+                scanner.nextLine(); 
 
                 substituto = new Musico(nomeSubstituto, papelSubstituto, experienciaSubstituto, remuneracaoSubstituto);
             }
