@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-       /*
+
         Musico musico1 = new Musico("João", "Guitarrista", 5, 120.50f);
         Musico musico2 = new Musico("Maria", "Vocalista", 8, 150.75f);
         Musico substituto = new Musico("Carlos", "Baterista", 3, 100.00f);
@@ -17,14 +17,14 @@ public class Main {
         System.out.println("\n### Dueto sem Substituto ###");
         duetoSemSubstituto.mostrar_informacoes();
 
-        */
-        Scanner scanner = new Scanner(System.in);
+
+        /*Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite o número de duetos: ");
         int n = scanner.nextInt();
-        scanner.nextLine(); // Consumindo a linha em branco
+        scanner.nextLine();
 
-        Dueto[] duetos = new Dueto[n]; // Array para armazenar os duetos
+        Dueto[] duetos = new Dueto[n];
 
         for (int i = 0; i < n; i++) {
             System.out.println("\nDigite as informações do " + (i + 1) + "º dueto:");
@@ -101,7 +101,7 @@ public class Main {
 
         for (int i = 0; i < n; i++) {
             duetos[i] = null;
-        }
+        }*/
 
     }
 }
