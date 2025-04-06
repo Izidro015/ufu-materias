@@ -24,8 +24,6 @@ public class JanelaCadastroCliente extends JFrame {
             String nome = txtNome.getText();
             String cpf = txtCPF.getText();
 
-            // Aqui você pode adicionar lógica para adicionar à lista global de clientes
-
             JOptionPane.showMessageDialog(null, "Cliente " + nome + " cadastrado!");
             dispose();
         });
