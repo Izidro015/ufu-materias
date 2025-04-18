@@ -1,4 +1,4 @@
-public class Estudante {
+public class Estudante implements Comparable<Estudante> {
     private String nome;
     private String endereco;
 
@@ -30,4 +30,8 @@ public class Estudante {
         this.endereco = endereco;
     }
 
+    @Override
+    public int compareTo(Estudante outro) {
+        return this.nome.compareTo(outro.nome);
+    }
 }
