@@ -1,0 +1,2 @@
+Para compilar e rodar um programa em Java devemos primeiramente configurar o jdk na máquina, e para isso baixamos ele no site da Oracle e depois configuramos na pasta Java e as variáveis de ambiente.
+Após isso, abrimos uma página de um editor de texto normal, como o bloco de notas, e escrevemos o programa em java. Logo depois, abrimos a pasta em que está o programa no terminal e compilamos usando javac NomeClasse.java e depois java NomeClasse para executar.
