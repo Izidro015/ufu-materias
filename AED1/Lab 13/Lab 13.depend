@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1698633722 source:c:\users\matii\onedrive\Área de trabalho\codeblox\lab 13\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TAD.h"
+
+1698459544 c:\users\matii\onedrive\Área de trabalho\codeblox\lab 13\tad.h
+
+1698633764 source:c:\users\matii\onedrive\Área de trabalho\codeblox\lab 13\pilha.c
+	<stdio.h>
+	<stdlib.h>
+	"TAD.h"
+

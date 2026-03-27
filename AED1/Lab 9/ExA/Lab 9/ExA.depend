@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1695609292 source:c:\users\matii\onedrive\Área de trabalho\codeblox\lab 9\exa\exa\listacircular.c
+	"lista.h"
+	<stdio.h>
+	<stdlib.h>
+
+1695609272 c:\users\matii\onedrive\Área de trabalho\codeblox\lab 9\exa\exa\lista.h
+
+1695609304 source:c:\users\matii\onedrive\Área de trabalho\codeblox\lab 9\exa\exa\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+

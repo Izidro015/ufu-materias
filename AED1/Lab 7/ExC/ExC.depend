@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1694402705 source:c:\users\matii\onedrive\Área de trabalho\codeblox\lab 7\exc\main.c
+	"TAD1.h"
+	<stdio.h>
+	<string.h>
+
+1694402285 c:\users\matii\onedrive\Área de trabalho\codeblox\lab 7\exc\tad1.h
+
+1694403011 source:c:\users\matii\onedrive\Área de trabalho\codeblox\lab 7\exc\tad1.c
+	"TAD1.h"
+	<stdio.h>
+	<stdlib.h>
+

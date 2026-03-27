@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1693827320 source:c:\users\matii\onedrive\Área de trabalho\codeblox\lab 6\exb\uniao.c
+	"uniao.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1693827359 c:\users\matii\onedrive\Área de trabalho\codeblox\lab 6\exb\uniao.h
+
