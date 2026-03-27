@@ -1,0 +1,85 @@
+library(ggplot2)
+#library()
+#library()
+############################REVISAO############################
+#Ex 1
+juju <- 18
+jorel <- 7
+moeda <- c("cara","coroa")
+while(juju != 0 & jorel != 0){
+  sorteio <- sample(moeda, size = 1)
+  if(sorteio == "cara"){
+    juju <- juju + 1
+    jorel <- jorel - 1
+  }else{
+    juju <- juju - 1
+    jorel <- jorel + 1
+  }
+}
+if(jorel == 0){
+  print("juju")
+}else{
+  print("jorel")
+}
+
+
+resultados <- c()
+for(j in 1:10000){
+  juju <- 18
+  jorel <- 7
+  while(juju != 0 & jorel != 0){
+    sorteio <- sample(moeda, size = 1)
+    if(sorteio == "cara"){
+      juju <- juju + 1
+      jorel <- jorel - 1
+    }else{
+      juju <- juju - 1
+      jorel <- jorel + 1
+    }
+    if(jorel == 0)
+      resultados <- c(resultados,"juju")
+    else
+      resultados <- c(resultados, "jorel")
+  }
+}
+resultados
+mean(resultados == "juju")
+mean(resultados == "jorel")
+
+
+
+#Ex 2
+figurinhas <- 1:30
+album <- sample(figurinhas, size = 1)
+album
+while(length(unique(album))<30){
+  album <- c(album,sample(figurinhas,size = 1))
+}
+length(album)
+
+resultados <- c()
+for(j in 1:10000){
+  album <- sample(figurinhas, size = 1, prob = c(1, rep(2, times = 29)))
+  while(length(unique(album))<30){
+    album <- c(album, sample(figurinhas, size = 1, prob = c(1, rep(2, times = 29))))
+  }
+  resultados[j] <- length(album)
+}
+resultados
+mean(resultados)
+
+
+
+#Ex 3
+chicago <- read.csv("chicago.csv")
+str(chicago)
+chicago <- chicago[,-1]
+chicago$season <- as.factor(chicago$season)
+(chicago$season)
+
+ggplot(data = chicago, aes(x = time, y = temp, col = season))+
+  geom_point()+
+  theme_minimal()
+  
+
+inverno <- chicago[chicago$season == "Winter",]
